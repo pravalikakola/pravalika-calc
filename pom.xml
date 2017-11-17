@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>com.mycompany.calculator</groupId>
+
+<artifactId>calculator</artifactId>
+
+<version>1</version>
+
+
+-<scm>
+
+<url>https://github.com/pravalikakola/pravalika-maven</url>
+
+<connection>scm:git:git://github.com/pravalikakola/pravalika-maven.git</connection>
+
+<developerConnection>scm:git:git@github.com:pravalikakola/pravalika-maven.git</developerConnection>
+
+</scm>
+
+</project>
