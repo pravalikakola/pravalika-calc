@@ -13,11 +13,11 @@
 
 -<scm>
 
-<url>https://github.com/pravalikakola/pravalika-maven</url>
+<url>https://github.com/pravalikakola/pravalika-calc</url>
 
-<connection>scm:git:git://github.com/pravalikakola/pravalika-maven.git</connection>
+<connection>scm:git:git://github.com/pravalikakola/pravalika-calc.git</connection>
 
-<developerConnection>scm:git:git@github.com:pravalikakola/pravalika-maven.git</developerConnection>
+<developerConnection>scm:git:git@github.com:pravalikakola/pravalika-calc.git</developerConnection>
 
 </scm>
 
