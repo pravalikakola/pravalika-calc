@@ -1,6 +1,7 @@
 node {
+    
+    stage 'checkout'
     checkout scm 
-    /* .. snip .. */
 }
 stages {
         stage('Build') {
@@ -8,14 +9,5 @@ stages {
                 echo 'Building..'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
+     
     }
