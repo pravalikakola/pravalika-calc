@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages {
-    stage 'Checkout'
+    stage('Checkout'){
 
-checkout 'https://github.com/pravalikakola/pravalika-calc.git'
-    
+          checkout scm
+}
     
         stage('Build') {
             steps {
