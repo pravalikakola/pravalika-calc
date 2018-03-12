@@ -2,6 +2,10 @@ pipeline {
     agent any
 
     stages {
+    
+    stage('Clone sources') {
+        git url: 'https://github.com/pravalikakola/pravalika-calc.git'
+    }
         stage('Build') {
             steps {
                 echo 'Building..'
