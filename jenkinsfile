@@ -1,13 +1,21 @@
 pipeline {
     agent any
-stages {
-        stage('Deploy') {
-    
-   ucd {
 
-        url 'https://IBM910-PC073GQT:8443'
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
 }
-
-}
-
