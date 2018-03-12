@@ -1,9 +1,9 @@
 node {
     
-    stage 'checkout'
-    checkout scm 
-}
+    
 stages {
+stage ('checkout')
+    checkout scm 
         stage('Build') {
             steps {
                 echo 'Building..'
@@ -11,3 +11,4 @@ stages {
         }
      
     }
+}
