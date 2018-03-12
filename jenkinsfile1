@@ -1,17 +1,6 @@
-
-@Library('someGitLibrary')
-
-node {   
-stages {
-final scmVars = checkout(scm)
-  // scmVars may have Git data from either the someGitLibrary or the scmVars
- }
-
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-     
-    }
+node {
+    checkout scm
+    
+    //Build, Test, Stage, Deploy
+    [...]
 }
