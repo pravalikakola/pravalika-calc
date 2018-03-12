@@ -3,7 +3,7 @@ node{
     stages {
     stage('Checkout'){
 
-          checkout 'SCM'
+          checkout scm
           }
     
         stage('Build') {
