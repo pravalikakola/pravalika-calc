@@ -4,8 +4,8 @@ pipeline {
     stages {
     stage('Checkout'){
 
-          checkout 'https://github.com/pravalikakola/pravalika-calc.git'
-}
+          checkout 'SCM'
+          }
     
         stage('Build') {
             steps {
