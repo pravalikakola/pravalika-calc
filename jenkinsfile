@@ -1,7 +1,13 @@
-agent {
-    // Equivalent to "docker build -f Dockerfile.build --build-arg version=1.0.2 ./build/
+pipeline {
+    agent any
+stages {
+        stage('Deploy') {
+    
    ucd {
 
         url 'https://IBM910-PC073GQT:8443'
     }
 }
+
+}
+
